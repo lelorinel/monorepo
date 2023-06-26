@@ -35,6 +35,6 @@
     "graphql-scalars": "1.21.3",
     "graphql-yoga": "3.9.1",
     "znv": "0.3.2",
-    "zod": "3.20.6"
+    "zod": "3.21.4"
   }
 }
