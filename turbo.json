@@ -28,14 +28,11 @@
     "docker:dev": {
       "cache": false
     },
-    "@kampus-apps/kampus#*": {
+    "@kampus/kampus#*": {
       "env": ["NODE_ENV", "GQL_URL", "RESEND_API_KEY"]
     },
-    "@kampus-apps/pano#*": {
-      "env": ["NODE_ENV", "DATABASE_URL", "SESSION_SECRET"]
-    },
-    "@kampus-apps/home#*": {
-      "env": ["NODE_ENV", "SESSION_SECRET", "TWITCH_CLIENT_ID", "TWITCH_CLIENT_SECRET"]
+    "@kampus/gql#*": {
+      "env": ["NODE_ENV", "DATABASE_URL"]
     }
   }
 }
